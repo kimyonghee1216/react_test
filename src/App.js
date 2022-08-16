@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import React, {Component} from 'react'
 import './App.css';
+import Sample from './Sample';
 
 function App() {
   var a = 10 + 10
@@ -33,6 +34,7 @@ function App() {
       <div>
         {a}{text}
       </div>
+      <Sample />
       <MyTag name="Kim" />
       <h1 className='title' onClick={handleClickEvent}>add10함수결과: {add10(3)}</h1>
     </>
